@@ -1,0 +1,25 @@
+# CMake & Build-Verzeichnisse
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# Kompilierte Binärdateien & Objektdateien
+*.o
+*.obj
+*.exe
+*.out
+
+# CLion & JetBrains IDE-Dateien
+.idea/
+
+# Generierte Bilddateien (große Render-Ergebnisse nicht versionieren)
+*.ppm
+*.png
+*.jpg
+
+# OS-Dateien
+.DS_Store
+Thumbs.db
